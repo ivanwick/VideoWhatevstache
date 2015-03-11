@@ -1,0 +1,256 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C696D5411D56327001B3C79 /* haarcascade_frontalface_alt2.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2C696D5111D56327001B3C79 /* haarcascade_frontalface_alt2.xml */; };
+		2C696D5511D56327001B3C79 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2C696D5211D56327001B3C79 /* README.txt */; };
+		2C696D5611D56327001B3C79 /* whatevstache-alpha-red.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C696D5311D56327001B3C79 /* whatevstache-alpha-red.png */; };
+		2C696D5A11D56348001B3C79 /* OpenCV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C696D5911D56348001B3C79 /* OpenCV.framework */; };
+		2C696D6511D56358001B3C79 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C696D6411D56358001B3C79 /* CoreFoundation.framework */; };
+		2C696DBB11D563C7001B3C79 /* VideoWhatevstache.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2C696D4F11D56313001B3C79 /* VideoWhatevstache.cc */; };
+		2C696DC011D563F4001B3C79 /* OpenCV.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2C696D5911D56348001B3C79 /* OpenCV.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2C696DD011D563FA001B3C79 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2C696DC011D563F4001B3C79 /* OpenCV.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2C696D4F11D56313001B3C79 /* VideoWhatevstache.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VideoWhatevstache.cc; sourceTree = "<group>"; };
+		2C696D5111D56327001B3C79 /* haarcascade_frontalface_alt2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt2.xml; sourceTree = "<group>"; };
+		2C696D5211D56327001B3C79 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		2C696D5311D56327001B3C79 /* whatevstache-alpha-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whatevstache-alpha-red.png"; sourceTree = "<group>"; };
+		2C696D5911D56348001B3C79 /* OpenCV.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenCV.framework; sourceTree = "<group>"; };
+		2C696D6411D56358001B3C79 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		8D1107310486CEB800E47090 /* VideoWhatevstache-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "VideoWhatevstache-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* VideoWhatevstache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoWhatevstache.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C696D5A11D56348001B3C79 /* OpenCV.framework in Frameworks */,
+				2C696D6511D56358001B3C79 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* VideoWhatevstache.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* VideoWhatevstache */ = {
+			isa = PBXGroup;
+			children = (
+				2C696D5211D56327001B3C79 /* README.txt */,
+				29B97315FDCFA39411CA2CEA /* Source */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = VideoWhatevstache;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				2C696D4F11D56313001B3C79 /* VideoWhatevstache.cc */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2C696D5111D56327001B3C79 /* haarcascade_frontalface_alt2.xml */,
+				2C696D5311D56327001B3C79 /* whatevstache-alpha-red.png */,
+				8D1107310486CEB800E47090 /* VideoWhatevstache-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C696D5911D56348001B3C79 /* OpenCV.framework */,
+				2C696D6411D56358001B3C79 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* VideoWhatevstache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "VideoWhatevstache" */;
+			buildPhases = (
+				2C696DD011D563FA001B3C79 /* CopyFiles */,
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoWhatevstache;
+			productInstallPath = "$(HOME)/Applications";
+			productName = VideoWhatevstache;
+			productReference = 8D1107320486CEB800E47090 /* VideoWhatevstache.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "VideoWhatevstache" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* VideoWhatevstache */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* VideoWhatevstache */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C696D5411D56327001B3C79 /* haarcascade_frontalface_alt2.xml in Resources */,
+				2C696D5511D56327001B3C79 /* README.txt in Resources */,
+				2C696D5611D56327001B3C79 /* whatevstache-alpha-red.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C696DBB11D563C7001B3C79 /* VideoWhatevstache.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = VideoWhatevstache_Prefix.pch;
+				INFOPLIST_FILE = "VideoWhatevstache-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = VideoWhatevstache;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = VideoWhatevstache_Prefix.pch;
+				INFOPLIST_FILE = "VideoWhatevstache-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = VideoWhatevstache;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "VideoWhatevstache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "VideoWhatevstache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
